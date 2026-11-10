@@ -1,0 +1,121 @@
+lockfile_version: '1'
+apm_version: 0.35.0
+dependencies:
+- repo_url: zmrocny/skill-status
+  name: skill-status
+  host: github.com
+  resolved_commit: ecdebbe96a591fcb0fd670fb91e246c3c921cf64
+  resolved_ref: v1.0.0
+  version: 1.0.0
+  package_type: marketplace_plugin
+  deployed_files:
+  - .agents/skills/skill-status
+  - .agents/skills/skill-status/SKILL.md
+  - .claude/skills/skill-status
+  - .claude/skills/skill-status/SKILL.md
+  - .grok/skills/skill-status
+  - .grok/skills/skill-status/SKILL.md
+  - .kiro/skills/skill-status
+  - .kiro/skills/skill-status/SKILL.md
+  - agent-data/workflows/skill-status
+  - agent-data/workflows/skill-status/SKILL.md
+  deployed_file_hashes:
+    .agents/skills/skill-status/SKILL.md: sha256:90d1b49fbeaecd7aaebcce7a711224dd6cb8bcde35a86b3a22391954480bad76
+    .claude/skills/skill-status/SKILL.md: sha256:90d1b49fbeaecd7aaebcce7a711224dd6cb8bcde35a86b3a22391954480bad76
+    .grok/skills/skill-status/SKILL.md: sha256:90d1b49fbeaecd7aaebcce7a711224dd6cb8bcde35a86b3a22391954480bad76
+    .kiro/skills/skill-status/SKILL.md: sha256:90d1b49fbeaecd7aaebcce7a711224dd6cb8bcde35a86b3a22391954480bad76
+    agent-data/workflows/skill-status/SKILL.md: sha256:90d1b49fbeaecd7aaebcce7a711224dd6cb8bcde35a86b3a22391954480bad76
+  content_hash: sha256:27e5d24b84cdb00a551656895a35020b4c4fdb5c35dfc0966a00f4fd99ed5e28
+  is_dev: true
+  declared_license: MIT
+deployments:
+- kind: project-relative
+  target: agent-skills
+  value: .agents/skills/skill-status
+  runtime: null
+  scope: project
+  owners:
+  - zmrocny/skill-status
+  active_owner: zmrocny/skill-status
+  content_hash: null
+- kind: project-relative
+  target: agent-skills
+  value: .agents/skills/skill-status/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - zmrocny/skill-status
+  active_owner: zmrocny/skill-status
+  content_hash: sha256:90d1b49fbeaecd7aaebcce7a711224dd6cb8bcde35a86b3a22391954480bad76
+- kind: project-relative
+  target: claude
+  value: .claude/skills/skill-status
+  runtime: null
+  scope: project
+  owners:
+  - zmrocny/skill-status
+  active_owner: zmrocny/skill-status
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/skill-status/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - zmrocny/skill-status
+  active_owner: zmrocny/skill-status
+  content_hash: sha256:90d1b49fbeaecd7aaebcce7a711224dd6cb8bcde35a86b3a22391954480bad76
+- kind: project-relative
+  target: grok-bot
+  value: agent-data/workflows/skill-status
+  runtime: null
+  scope: project
+  owners:
+  - zmrocny/skill-status
+  active_owner: zmrocny/skill-status
+  content_hash: null
+- kind: project-relative
+  target: grok-bot
+  value: agent-data/workflows/skill-status/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - zmrocny/skill-status
+  active_owner: zmrocny/skill-status
+  content_hash: sha256:90d1b49fbeaecd7aaebcce7a711224dd6cb8bcde35a86b3a22391954480bad76
+- kind: project-relative
+  target: grok-build
+  value: .grok/skills/skill-status
+  runtime: null
+  scope: project
+  owners:
+  - zmrocny/skill-status
+  active_owner: zmrocny/skill-status
+  content_hash: null
+- kind: project-relative
+  target: grok-build
+  value: .grok/skills/skill-status/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - zmrocny/skill-status
+  active_owner: zmrocny/skill-status
+  content_hash: sha256:90d1b49fbeaecd7aaebcce7a711224dd6cb8bcde35a86b3a22391954480bad76
+- kind: project-relative
+  target: kiro
+  value: .kiro/skills/skill-status
+  runtime: null
+  scope: project
+  owners:
+  - zmrocny/skill-status
+  active_owner: zmrocny/skill-status
+  content_hash: null
+- kind: project-relative
+  target: kiro
+  value: .kiro/skills/skill-status/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - zmrocny/skill-status
+  active_owner: zmrocny/skill-status
+  content_hash: sha256:90d1b49fbeaecd7aaebcce7a711224dd6cb8bcde35a86b3a22391954480bad76

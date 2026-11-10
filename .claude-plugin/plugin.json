@@ -1,0 +1,11 @@
+{
+  "name": "proxyman-scripting-mock",
+  "description": "Backend mocks as Proxyman Scripting rules, mirrored from .js files on disk: create, update, disable.",
+  "version": "1.0.0",
+  "author": {
+    "name": "zmrocny"
+  },
+  "homepage": "https://github.com/zmrocny/proxyman-scripting-mock",
+  "repository": "https://github.com/zmrocny/proxyman-scripting-mock",
+  "license": "MIT"
+}

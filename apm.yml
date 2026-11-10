@@ -1,0 +1,28 @@
+name: proxyman-scripting-mock
+version: 1.0.0
+description: Backend mocks as Proxyman Scripting rules, mirrored from .js files on disk.
+author: zmrocny
+license: MIT
+targets:
+- agent-skills
+- antigravity
+- claude
+- codex
+- copilot
+- cursor
+- gemini
+- grok-bot
+- grok-build
+- hermes
+- kiro
+- opencode
+- vscode
+- windsurf
+dependencies:
+  apm: []
+  mcp: []
+devDependencies:
+  apm:
+  - zmrocny/skill-status#v1.0.0
+includes: auto
+scripts: {}

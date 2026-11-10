@@ -1,0 +1,14 @@
+{
+  "name": "proxyman-scripting-mock",
+  "description": "Backend mocks via Proxyman Scripting for Agent Skills.",
+  "owner": {
+    "name": "zmrocny"
+  },
+  "plugins": [
+    {
+      "name": "proxyman-scripting-mock",
+      "source": "./",
+      "description": "Backend mocks as Proxyman Scripting rules, mirrored from .js files on disk: create, update, disable."
+    }
+  ]
+}

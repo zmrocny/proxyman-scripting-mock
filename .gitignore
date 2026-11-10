@@ -1,0 +1,10 @@
+.DS_Store
+
+# APM: dev dependencies deployed by `apm install`
+apm_modules/
+.apm-local/
+.agents/
+.claude/
+.grok/
+.kiro/
+agent-data/
